@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NZ_Walks_web-api_project.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NZ_Walks_web-api_project.props" />
+</Project>
