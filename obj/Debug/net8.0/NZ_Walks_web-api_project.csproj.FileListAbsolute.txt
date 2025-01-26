@@ -166,3 +166,5 @@ C:\Users\ДІАНА\Desktop\NZ_Walks_web-api_project\obj\Debug\net8.0\refint\NZ_
 C:\Users\ДІАНА\Desktop\NZ_Walks_web-api_project\obj\Debug\net8.0\NZ_Walks_web-api_project.pdb
 C:\Users\ДІАНА\Desktop\NZ_Walks_web-api_project\obj\Debug\net8.0\NZ_Walks_web-api_project.genruntimeconfig.cache
 C:\Users\ДІАНА\Desktop\NZ_Walks_web-api_project\obj\Debug\net8.0\ref\NZ_Walks_web-api_project.dll
+C:\Users\ДІАНА\Desktop\NZ_Walks_web-api_project\obj\Debug\net8.0\NZ_Walks_web-api_project.sourcelink.json
+C:\Users\ДІАНА\Desktop\NZ_Walks_web-api_project\bin\Debug\net8.0\AutoMapper.dll

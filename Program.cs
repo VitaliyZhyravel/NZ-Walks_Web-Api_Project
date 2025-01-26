@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using NZ_Walks_web_api_project.Data;
+using NZ_Walks_web_api_project.Mappings;
+using NZ_Walks_web_api_project.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<NZWalksDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksConectionString")));
+builder.Services.AddDbContext<NZWalksDbContext>(option => 
+option.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksConectionString")));
+
+builder.Services.AddScoped<IRegionRepository, SqlRegionRepository>();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 var app = builder.Build();
 
